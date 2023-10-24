@@ -1,0 +1,33 @@
+.title {
+  padding: 0;
+  line-height: .75rem;
+}
+
+.todo-state {
+  padding: 0;
+  line-height: .5rem;
+  font-weight: bold;
+  font-size: .8rem;
+  text-transform: capitalize;
+}
+
+.todo-true {
+  color: green;
+}
+
+.todo-false {
+  color: red;
+}
+
+.deadline {
+  padding: 0;
+  line-height: .5rem;
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+.description {
+  border-top: solid 1px black;
+  padding: 1rem .5rem;
+  border-bottom: solid .5rem black;
+}

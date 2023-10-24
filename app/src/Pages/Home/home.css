@@ -1,0 +1,58 @@
+.homeFlex {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 7rem;
+  height: 30rem;
+}
+.infoTextDiv{
+  width: 30%;
+  padding: 1.5rem;
+  background-color: #ebebeb;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+img{
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.wideDiv{
+  width: 70%;
+  height: 100%;
+}
+.wideDiv div + div{
+  margin-top: 1rem;
+}
+.wideDiv div {
+  display: flex;
+  gap: 1rem;
+  flex-grow: 1;
+}
+.square{
+  width: 14.5rem;
+  height: 14.5rem;
+}
+.rect{
+  width: 30rem;
+  height: 14.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  font-weight: bold;
+  color: #404040;
+}
+.beige{
+  background-color: #e4dbd2;
+}
+.grey{
+  background-color: #C9C9C9;
+}
+
+div{
+  border-radius: 2rem;
+}
+.mt-b{
+  margin-top: 15rem;
+}

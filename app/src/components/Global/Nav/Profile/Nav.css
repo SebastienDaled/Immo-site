@@ -1,0 +1,24 @@
+.profile__ul{
+  display: flex;
+  margin: 0;
+  margin-left: 2rem;
+  padding-left: 0;
+  
+  
+}
+.profile__li{
+  list-style-type: none;
+  background-color: #F4EFEA;
+  padding: 1rem 1rem;
+  border-radius: 1rem 0 0 0;
+}
+.profile__li a {
+  color: #616161;
+  text-decoration: none;
+}
+.profile__li + .profile__li{
+  border-radius: 0 1rem 0 0;
+}
+.active {
+  background-color: #dbd4ce;
+}

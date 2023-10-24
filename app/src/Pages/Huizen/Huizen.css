@@ -1,0 +1,46 @@
+.huizen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.houseCart {
+  width: 48%;
+  flex-grow: 1;
+  display: flex;
+  gap: 1rem;
+  background-color: #F4EFEA;
+  color: #707070;
+}
+.houseCart__image{
+  width: 35%;
+}
+.houseCart__image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.none{
+  display: none;
+}
+.super{
+  font-size: .8rem;
+  vertical-align: super;
+}
+.info_st{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0 0;
+}
+.info_price{
+  font-size: 2rem;
+  margin: 0;
+}
+.info_adres{
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 2rem 0 0 0;
+}
+.info_inf{
+  font-size: .8rem;
+  margin: 0 0 1rem 0;
+}
